@@ -15,6 +15,12 @@ toString(){
     return `Product: ${this.name}, Price: $${this.price}, Quantity: ${this.quantity} `;
 }
 
+static applyDiscount(products, discount) {
+    products.forEach(product => {
+      product.price = product.price - (product.price * discount);
+    });
+  }
+
 }
 
 let products=new ProductProperties("Apple", 2.50, 50);
@@ -38,6 +44,9 @@ let bread = new PerishableProductProperties("Bread", 2.00, 20, "2024-08-20");
 
 console.log(milk.toString());
 console.log(bread.toString());
+
+//Part 3
+
    
 
    
