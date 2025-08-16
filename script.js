@@ -59,7 +59,9 @@ console.log(bread.toString());
     this.inventory = [];
   }
 
-
+addProduct(product) {
+    this.inventory.push(product);
+  }
 
 }
 
