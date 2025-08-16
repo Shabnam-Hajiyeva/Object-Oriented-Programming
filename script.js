@@ -48,7 +48,10 @@ console.log(bread.toString());
 //Part 3
 let allProducts = [milk, bread];
 
-ProductProperties.applyDiscount(products, 0.1);
+ProductProperties.applyDiscount(allProducts, 0.1);
+console.log("---- After Discount ----");
+console.log(milk.toString());
+console.log(bread.toString());
 
    
 
