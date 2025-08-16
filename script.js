@@ -46,6 +46,7 @@ console.log(milk.toString());
 console.log(bread.toString());
 
 //Part 3
+let allProducts = [milk, bread];
 
    
 
