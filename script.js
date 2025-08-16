@@ -76,6 +76,9 @@ findProductByName(name) {
 let store = new Store();
 store.addProduct(milk);
 store.addProduct(bread);
+store.addProduct(apple);
+store.addProduct(laptop);
+store.addProduct(pen);
 
 console.log("Total Inventory Value: $" + store.getInventoryValue().toFixed(2));
 console.log(store.findProductByName("Bread")?.toString());
