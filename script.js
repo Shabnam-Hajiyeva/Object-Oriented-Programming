@@ -1,3 +1,4 @@
+//Part 1
 class  ProductProperties{
     constructor (name,price,quantity){
         this.name=name;
@@ -19,6 +20,8 @@ toString(){
 let products=new ProductProperties("Apple", 2.50, 50);
 console.log(products.getTotalValue());
 console.log(products.toString());
+
+
 
 
 
