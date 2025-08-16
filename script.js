@@ -41,6 +41,9 @@ toString(){
    }
 let milk=new PerishableProductProperties("Milk",1.50,10, "2024-12-31");
 let bread = new PerishableProductProperties("Bread", 2.00, 20, "2024-08-20");
+let apple = new ProductProperties("Apple", 2.50, 50);    
+let laptop = new ProductProperties("Laptop", 1000, 3);    
+let pen = new ProductProperties("Pen", 1.20, 100); 
 
 console.log(milk.toString());
 console.log(bread.toString());
