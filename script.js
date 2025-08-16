@@ -35,6 +35,9 @@ toString(){
    }
 let milk=new PerishableProductProperties("Milk",1.50,10, "2024-12-31");
 let bread = new PerishableProductProperties("Bread", 2.00, 20, "2024-08-20");
+
+console.log(milk.toString());
+console.log(bread.toString());
    
 
    
