@@ -16,6 +16,10 @@ toString(){
 
 }
 
+let products=new ProductProperties("Apple", 2.50, 50);
+console.log(products.getTotalValue());
+console.log(products.toString());
+
 
 
     
