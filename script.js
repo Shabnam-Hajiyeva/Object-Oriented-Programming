@@ -70,6 +70,13 @@ findProductByName(name) {
     return this.inventory.find(product => product.name === name) || null;
   }
 }
+let store = new Store();
+store.addProduct(milk);
+store.addProduct(bread);
+
+console.log("Total Inventory Value: $" + store.getInventoryValue().toFixed(2));
+console.log(store.findProductByName("Bread")?.toString());
+console.log(store.findProductByName("Banana")); 
 
 
     
